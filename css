@@ -1,0 +1,36 @@
+/* Set the background image of the body to the riverfront view */
+body {
+  background-image: url('riverfront-view.jpg');
+  background-size: cover;
+}
+
+/* Style the header */
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+/* Style the main content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+section {
+  margin: 50px;
+  text-align: center;
+}
+
+/* Style the video element */
+video {
+  max-width: 100%;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
